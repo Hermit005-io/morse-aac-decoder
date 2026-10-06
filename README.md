@@ -433,3 +433,7 @@ tests/              139 tests
 4. Test the sound decoder in more real rooms and against real radio
    recordings, and make it cope with echo (for example by estimating the
    room's echo and subtracting it).
+
+## License
+
+MIT. See [LICENSE](LICENSE).
