@@ -1,0 +1,8 @@
+# Core decoder, audio, and tests
+numpy>=1.24
+# Benchmark chart
+matplotlib>=3.7
+# Tests
+pytest>=7
+# Live microphone input (optional: only listen.py needs it)
+sounddevice>=0.4

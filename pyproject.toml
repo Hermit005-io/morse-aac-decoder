@@ -1,0 +1,23 @@
+[project]
+name = "morse-aac"
+version = "0.1.0"
+description = "One-switch Morse code typing that adapts to the sender's own timing."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24"]
+
+[project.optional-dependencies]
+charts = ["matplotlib>=3.7"]
+microphone = ["sounddevice>=0.4"]
+dev = ["pytest>=7", "ruff>=0.5"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "SIM"]
